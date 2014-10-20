@@ -1,4 +1,4 @@
-hls-fetcher
+hls-sync
 ===========
 
-A Fetcher for HLS.
+A Sync util for HLS.

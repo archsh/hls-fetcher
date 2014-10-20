@@ -25,9 +25,9 @@ import os
 from twisted.internet import reactor
 from twisted.python import log
 
-from hlsfethcer import __version__
-from hlsfethcer.fetcher import HLSFetcher
-from hlsfethcer.m3u8 import M3U8
+from hls_sync import __version__
+from hls_sync.sync import HLSFetcher
+from hls_sync.m3u8 import M3U8
 
 if sys.version_info < (2, 4):
     raise ImportError("Cannot run with Python version < 2.4")

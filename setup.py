@@ -1,12 +1,12 @@
-from hlsfethcer import __version__
+from hls_sync import __version__
 
 from setuptools import setup, find_packages
 setup(
-    name = "HLS Fetcher",
+    name = "HLS Sync",
     version = __version__,
     packages = find_packages(),
     entry_points = {
-        'console_scripts': [ 'hls-fetcher = hlsfetcher.player:main' ]
+        'console_scripts': [ 'hls-sync = hls_sync.sync:main' ]
         },
 
     author = "Mingcai SHEN",

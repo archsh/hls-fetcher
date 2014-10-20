@@ -22,8 +22,8 @@ from twisted.web import client
 from twisted.internet import defer, reactor, task
 from twisted.internet.task import deferLater
 
-import hlsfethcer
-from hlsfethcer.m3u8 import M3U8
+import hls_sync
+from hls_sync.m3u8 import M3U8
 
 class HLSFetcher(object):
 
